@@ -86,10 +86,11 @@ public class Basepage {
 		
 		
 		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("URL"));
 
-		
+	
 		
 	}
 	
