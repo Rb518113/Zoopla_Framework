@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12004681500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.suiteSetup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "User can login to the application, search the location, select the second or third property from the list \u0026 verify the price on the screen.",
+        "id": "user-can-search-the-properties,-select-the-property,-buy-the-property,;",
+        "after": [
+          {
+            "result": {
+              "duration": 8875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8334239042,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Users is able to verify login information successfully",
+            "match": {
+              "location": "Stepdef.users_is_able_to_verify_login_information_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7986198209,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Users can hover over the page on the For Sale module and click on the UK Property For Sale",
+            "match": {
+              "location": "Stepdef.users_can_hover_over_the_page_on_the_For_Sale_module_and_click_on_the_UK_Property_For_Sale()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6824715875,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Users is able to enter location- \"New York, Lincolnshire\"- in the text box \u0026 hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York, Lincolnshire",
+                  "offset": 34
+                }
+              ],
+              "location": "Stepdef.users_is_able_to_enter_location_in_the_text_box_hit_enter_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159448833,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Users is able to print all value/price of the properties in the console",
+            "match": {
+              "location": "Stepdef.users_is_able_to_print_all_value_price_of_the_properties_in_the_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4249272875,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on the third property from the properties list",
+            "match": {
+              "location": "Stepdef.click_on_the_third_property_from_the_properties_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2317169334,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Users is able to print out the selected property details",
+            "match": {
+              "location": "Stepdef.users_is_able_to_print_out_the_selected_property_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11876291,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users can Verify the price of the selected property",
+            "match": {
+              "location": "Stepdef.users_can_Verify_the_price_of_the_selected_property()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17172250,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is able to logout the application",
+            "match": {
+              "location": "Stepdef.user_is_able_to_logout_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "User can search the properties, select the property, buy the property,",
+    "description": "compare the property \u0026 verify the price\n\nDescription: User login zoopla web site, search the property \u0026\n            select the property as well as verify the property price.",
+    "id": "user-can-search-the-properties,-select-the-property,-buy-the-property,",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
