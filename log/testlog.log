@@ -168,3 +168,16 @@
 2021-10-16 21:46:41,965 - Zoopla_Looger -INFO - Users is able to print out the selected property details
 2021-10-16 21:46:44,283 - Zoopla_Looger -INFO - Users can Verify the price of the selected property
 2021-10-16 21:46:44,299 - Zoopla_Looger -INFO - User is able to logout the application
+2021-10-18 02:00:21,145 - Zoopla_Looger -INFO -  
+2021-10-18 02:00:21,148 - Zoopla_Looger -INFO -  
+2021-10-18 02:00:21,148 - Zoopla_Looger -INFO - ********* Start Automation *************
+2021-10-18 02:00:21,148 - Zoopla_Looger -INFO -  
+2021-10-18 02:00:21,149 - Zoopla_Looger -INFO -  
+2021-10-18 02:00:33,940 - Zoopla_Looger -INFO - Users is able to verify login information successfully
+2021-10-18 02:00:42,773 - Zoopla_Looger -INFO - Users can hover over the page on the For Sale module and click on the UK Property For Sale
+2021-10-18 02:00:50,499 - Zoopla_Looger -INFO - Users is able to enter location in the text box & hit enter button
+2021-10-18 02:01:00,215 - Zoopla_Looger -INFO - Users is able to print all value/price of the properties in the console
+2021-10-18 02:01:00,971 - Zoopla_Looger -INFO - click on the third property from the properties list
+2021-10-18 02:01:04,321 - Zoopla_Looger -INFO - Users is able to print out the selected property details
+2021-10-18 02:01:06,325 - Zoopla_Looger -INFO - Users can Verify the price of the selected property
+2021-10-18 02:01:06,351 - Zoopla_Looger -INFO - User is able to logout the application

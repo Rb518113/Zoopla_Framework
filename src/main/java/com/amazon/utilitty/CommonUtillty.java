@@ -61,12 +61,25 @@ public class CommonUtillty extends Basepage{
 	
 	//Mouseover by the Action interface and move to element
 	public static void mouseOver(WebElement element) {
-		// Actions is a interface from the selenimum and passing the driver 
+		
+		
+		// Actions is a class from the selenimum and passing the driver 
 		Actions act = new Actions(driver);
 		// it is just moving to the element that i need to be.
 		act.moveToElement(element).build().perform();
 		
+		
+		
+		
+		
+		
+		
+		
 	}
+	
+	
+	
+	
 	
 	
 	public static Alert alertAcceptPopUp() {

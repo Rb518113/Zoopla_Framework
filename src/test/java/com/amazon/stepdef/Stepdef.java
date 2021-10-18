@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import com.amazon.basePage.Basepage;
 import com.amazon.pageFactory.ZooplaPageFactory;
+import com.amazon.utilitty.CommonUtillty;
 import com.amazon.utilitty.ExplicitWaitZoopla;
 import com.amazon.utilitty.HighLight;
 import cucumber.api.java.en.Given;
@@ -51,8 +52,12 @@ public class Stepdef extends Basepage{
 	@When("^Users can hover over the page on the For Sale module and click on the UK Property For Sale$")
 	public void users_can_hover_over_the_page_on_the_For_Sale_module_and_click_on_the_UK_Property_For_Sale() throws Throwable {
 		 logger.info("Users can hover over the page on the For Sale module and click on the UK Property For Sale");
-		Actions act = new Actions(driver);
-	    act.moveToElement(pf.getForSale()).build().perform();
+	
+		 
+		 CommonUtillty.mouseOver(pf.getForSale());
+	    
+	    
+	    
 	    Thread.sleep(5000);
 	    HighLight.highLighterMethod(driver,  pf.child());
 	    ExplicitWaitZoopla.explicitWait( pf.child(), 7);

@@ -9,36 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite1</th></tr>
-<tr><td><a href="#t0">Nopackage</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">45,313</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Nopackage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">45,684</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Nopackage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.amazon.runner.Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1634359200873</td><td rowspan="1">44915</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Nopackage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.amazon.runner.Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1634536821066</td><td rowspan="1">45304</td></tr></tbody>
 </table>
-<h2>Nopackage</h2><h3 id="m0">com.amazon.runner.Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User can search the properties, select the property, buy the property,</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLParagraphElement] has no size and location
-  (Session info: chrome=94.0.4606.81)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Rifats-MBP-2&apos;, ip: &apos;fe80:0:0:0:fe:c986:685:359e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/08/vrkmw5zs22z...}, goog:chromeOptions: {debuggerAddress: localhost:54939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bb0011c1b409b17a8291f6dc2236945
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLParagraphElement] has no size and location
-  (Session info: chrome=94.0.4606.81)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Rifats-MBP-2&apos;, ip: &apos;fe80:0:0:0:fe:c986:685:359e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/08/vrkmw5zs22z...}, goog:chromeOptions: {debuggerAddress: localhost:54939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bb0011c1b409b17a8291f6dc2236945
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.amazon.stepdef.Stepdef.user_is_able_to_logout_the_application(Stepdef.java:119)
-	at ✽.And User is able to logout the application(login.feature:17)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Nopackage</h2><h3 id="m0">com.amazon.runner.Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User can search the properties, select the property, buy the property,</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
